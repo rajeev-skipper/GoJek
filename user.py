@@ -1,4 +1,4 @@
-class user:
+class User:
     balance = [0,0]
     def credit(self):
         balance = self.balance
