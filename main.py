@@ -94,9 +94,9 @@ from user import User
 #         print('Thank you!')
         
         
-b = menu()
-raj = user()
-b.takeuserinput(raj)
+b = Menu()
+rajeev = User()
+b.takeuserinput(rajeev)
 
 # def takeuserinput():
 #     print('Select an option:'),
