@@ -27,6 +27,12 @@ def credit(balance):
         print('Sorry! Low Balance.')
     balance[0]+=dollars
     balance[1]+=cents
+    if balance[1]>100:
+        balance[0]+=balance[1]//100
+        balance[1] %=100
+    if balancce[1]<0:
+        balance[0]-=1 
+        balance[1]+=100
     print('Successful')
      
     
@@ -48,6 +54,12 @@ def debit(balance):
         print('Sorry! Low Balance.')
     balance[0]-=dollars
     balance[1]-=cents
+    if balance[1]>100:
+        balance[0]+=balance[1]//100
+        balance[1] %=100
+    if balancce[1]<0:
+        balance[0]-=1 
+        balance[1]+=100
     print('Successful')
     
 def checkbalance(balance):
