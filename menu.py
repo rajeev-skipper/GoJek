@@ -1,4 +1,4 @@
-class menu:
+class Menu:
     def takeuserinput(self,raj):
         print('Select an option:'),
         print(str(1)+'.'+'Credit'),
